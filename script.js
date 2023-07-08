@@ -26,7 +26,7 @@ window.deleteall = () => {
     location.reload();
 };
 
-window.logtodo = () => {
+let logtodo = () => {
     console.log("done")
     let title = document.getElementById("title").value;
     let todo = document.getElementById("todo").value;
